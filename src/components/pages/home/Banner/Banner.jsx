@@ -18,7 +18,7 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3>Chef Ahmed Hossain</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -30,7 +30,7 @@ const Banner = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <h3>Chef Fakruddin</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -42,7 +42,7 @@ const Banner = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Chef Asad Latif</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
@@ -56,7 +56,7 @@ const Banner = () => {
             alt="Fourth slide"
           />
           <Carousel.Caption>
-            <h3>Fourth slide label</h3>
+            <h3>Chef Tony</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
@@ -70,7 +70,7 @@ const Banner = () => {
             alt="Fifth slide"
           />
           <Carousel.Caption>
-            <h3>Fifth slide label</h3>
+            <h3>Manik Miah</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
@@ -84,7 +84,7 @@ const Banner = () => {
             alt="Six slide"
           />
           <Carousel.Caption>
-            <h3>Six slide label</h3>
+            <h3>Shelly Nuruzzaman</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>

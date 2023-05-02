@@ -42,7 +42,7 @@ Numbers of recipes
 Likes
 View Recipes Button
 
-10. Add at least two extra sections on the home page. Make sure the sections are meaningful for the website you are building.
+// 10. Add at least two extra sections on the home page. Make sure the sections are meaningful for the website you are building.
 
 11. When a user clicks on a chef's View Recipes button, he/she will be redirected to the Chef Recipes page. The Chef Recipes page will have the following :
 Banner - chef picture, chef name, a short bio/description, likes, number of recipes, and years of experience.
