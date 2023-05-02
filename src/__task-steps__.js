@@ -53,7 +53,7 @@ Each recipe info should contain the recipe name, ingredients (at least 5), cooki
 
 13. Show a spinner when the data is in a loading state
 
-14. Create a 404 page. Add a picture on the 404 page.
+// 14. Create a 404 page. Add a picture on the 404 page.
 
 15. Use the Environment variable to hide the Firebase config keys.
 

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const Home = () => {
+const Blog = () => {
   return (
     <Container>
-      <h2>This is home page</h2>
+      <h2>This is blog page</h2>
     </Container>
   );
 };
 
-export default Home;
+export default Blog;
