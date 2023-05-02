@@ -34,13 +34,13 @@ A user cannot submit empty email and password fields
 
 // 8. On the Homepage: There will be a banner section. You can make it a reasonable banner. That be text on one side, and picture in another side. Or it could be text with background pictures. It could be a slider or a carousel. You can make it the way you want. ----> ok
 
-9. The home page will have a Chef section with at least six cards. Each card will have the following information:
-Chef Picture
-Chef Name
-Years of experience
-Numbers of recipes
-Likes
-View Recipes Button
+// 9. The home page will have a Chef section with at least six cards. Each card will have the following information:
+// Chef Picture
+// Chef Name
+// Years of experience
+// Numbers of recipes
+// Likes
+// View Recipes Button --- ok
 
 // 10. Add at least two extra sections on the home page. Make sure the sections are meaningful for the website you are building.
 
@@ -67,13 +67,13 @@ Each recipe info should contain the recipe name, ingredients (at least 5), cooki
 
 2. Create a readme for client-side and write about your project (at least 5 bullet points) .Do not forget to add your live site link of your website here.
 
-3. Make your website home page mobile & desktop responsive (tablet responsive is optional)
+// 3. Make your website home page mobile & desktop responsive (tablet responsive is optional)
 
-4. Create a blogs page route where you will have to answer the following questions
-Tell us the differences between uncontrolled and controlled components.
-How to validate React props using PropTypes
-Tell us the difference between nodejs and express js.
-What is a custom hook, and why will you create a custom hook?
+// 4. Create a blogs page route where you will have to answer the following questions
+// Tell us the differences between uncontrolled and controlled components.
+// How to validate React props using PropTypes
+// Tell us the difference between nodejs and express js.
+// What is a custom hook, and why will you create a custom hook?
 
 5. The Chef Recipe page will be a private/protected page. If you reload the protected/private route (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route.
 
