@@ -1,11 +1,13 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
   return (
-    <Container>
-      <h2>This is home page</h2>
-    </Container>
+    <div className='my-4'>
+      <div>
+        <Banner></Banner>
+      </div>
+    </div>
   );
 };
 
