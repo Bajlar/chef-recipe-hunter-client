@@ -20,12 +20,12 @@ with the Website name, Home, Blog and User profile picture. The user profile pic
 // GitHub Sign-in
 // A link that will redirect to the registration page ----> ok
 
-6. The Registration page will have the Email/Password form having the following fields:
-Name
-Email
-Password
-Photo URL
-Note: Do not enforce the email verification method, as it will inconvenience the examiner. If you want, you can add email verification after receiving the assignment result.
+// 6. The Registration page will have the Email/Password form having the following fields:
+// Name
+// Email
+// Password
+// Photo URL
+// Note: Do not enforce the email verification method, as it will inconvenience the examiner. If you want, you can add email verification after receiving the assignment result. ---- ok
 
 7. On the Registration page, display errors when:
 update: If a user's email address or password doesn't match, display error. This error will be displayed on the Login page.

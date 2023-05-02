@@ -17,6 +17,7 @@ const Login = () => {
   return (
     <Container className='my-5 w-50 mx-auto'>
       <Form onSubmit={handleLogin}>
+        <h2>Login your account</h2>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" name='email' placeholder="Enter Your Email" required />

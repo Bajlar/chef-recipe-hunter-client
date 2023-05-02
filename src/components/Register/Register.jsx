@@ -1,10 +1,68 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container, Form } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
+
+  const handleRegister = event => {
+    event.preventDefault();
+
+    const form = event.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    const photo = form.photo.value;
+    console.log(name, email, password, photo);
+  }
+
   return (
-    <Container>
-      <h2>Register</h2>
+    <Container className='my-5 w-50 mx-auto'>
+      <Form onSubmit={handleRegister}>
+        <h2>Register your account</h2>
+        <Form.Group className="mb-3" controlId="formBasicName">
+          <Form.Label>Enter Your Name</Form.Label>
+          <Form.Control type="text" name='name' placeholder="Enter Your Name" required />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" name='email' placeholder="Enter Your Email" required />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" name='password' placeholder="Enter Your Password" required />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPhotoURL">
+          <Form.Label>Photo URL</Form.Label>
+          <Form.Control type="text" name='photo' placeholder="Photo URL" required />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicCheckbox">
+          <Form.Check 
+            type="checkbox" 
+            name="accept"
+            label="Accept Term and Conditions" />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="linkup">
+          <Form.Text className="text-muted">
+          <p style={{fontSize: '1rem'}}>Already have an account? <Link to='/login' className='text-warning text-decoration-none fw-medium'>Login</Link></p>
+          </Form.Text>
+        </Form.Group>
+        
+        <Button variant="dark" type="submit">
+          Register
+        </Button>
+
+        <Form.Text className='text-success'>
+
+        </Form.Text>
+        <Form.Text className='text-danger'>
+
+        </Form.Text>
+      </Form>
     </Container>
   );
 };
