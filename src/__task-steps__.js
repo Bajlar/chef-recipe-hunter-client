@@ -11,14 +11,14 @@ First, select the cuisine type. Google the site design or visit ThemeForest to g
 3. Your website should have a navbar.
 with the Website name, Home, Blog and User profile picture. The user profile picture on the navbar is conditional. If the user is signed in, the navbar will show the profile picture; otherwise, it will show the Login button. If the user name is available, the user's name will be visible when the mouse hovers over the profile picture.
 
-4. Create a reasonable and meaningful footer.
-Make sure that the navbar and footer are present on all pages:
+// 4. Create a reasonable and meaningful footer.
+// Make sure that the navbar and footer are present on all pages: ----> ok
 
-5. When a user clicks on the login button, they will be redirected to the login page having the following:
-Email/Password
-Google Sign-in
-GitHub Sign-in
-A link that will redirect to the registration page
+// 5. When a user clicks on the login button, they will be redirected to the login page having the following:
+// Email/Password
+// Google Sign-in
+// GitHub Sign-in
+// A link that will redirect to the registration page ----> ok
 
 6. The Registration page will have the Email/Password form having the following fields:
 Name
