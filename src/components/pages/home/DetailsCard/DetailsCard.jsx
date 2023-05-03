@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button, Card, Col, Container } from 'react-bootstrap';
+import { Button, Card, Col, Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const DetailsCard = ({chef}) => {
   // console.log(chef);
   const {id, chefName, chefPicture, yearsOfExperience, numbersOfRecipes, likes, description} = chef;
   return (
-    <Container>
+    <Container className='d-flex'>
       <Col className='mt-3'>
         <Card>
           <Card.Img variant="top" src={chefPicture} />

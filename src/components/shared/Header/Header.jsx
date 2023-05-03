@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext} from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -9,8 +9,17 @@ import { FaUser } from 'react-icons/fa';
 import { AuthContext } from '../../../providers/AuthProvider';
 
 const Header = () => {
-  const {user} = useContext(AuthContext);
+  const {user, logOut} = useContext(AuthContext);
   // console.log(user);
+
+  const handleLogOut = () => {
+    // console.log('logOut button click');
+    logOut()
+      .then(() => {})
+      .catch((error) => {
+        console.log(error);
+      })
+  }
 
   return (
     <div>
@@ -36,7 +45,7 @@ const Header = () => {
                 <Nav.Link href="#action2"><FaUser style={{fontSize: '2rem'}}></FaUser></Nav.Link>
               }
               {user ? 
-                <Button variant="btn btn-dark" className='ms-4'>Logout</Button> :
+                <Button onClick={handleLogOut} variant="btn btn-dark" className='ms-4'>Logout</Button> :
                 <Link to='/login'><Button variant="btn btn-dark" className='ms-4'>Login</Button></Link>
               }
             </Form>

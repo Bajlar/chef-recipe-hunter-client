@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Container } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
+import { FaDownload } from 'react-icons/fa';
 
 const Blog = () => {
   return (
@@ -7,6 +8,7 @@ const Blog = () => {
       <Card>
         <Card.Body>
           <Card.Text>
+            <h1 className='display-5 fw-bold text-decoration-underline'>Answer the following questions:</h1>
             <div>
               <h3>Tell us the differences between uncontrolled and controlled components</h3>
               <p>
@@ -90,6 +92,9 @@ const Blog = () => {
               <p>
                 In summary, custom hooks are a way to share logic between multiple components in a React application, and can help reduce code duplication, make your code more maintainable, and improve the encapsulation and separation of concerns in your code.
               </p>
+            </div>
+            <div className="mt-3">
+              <Button variant="dark"><FaDownload></FaDownload> Pdf Download</Button>
             </div>
           </Card.Text>
         </Card.Body>

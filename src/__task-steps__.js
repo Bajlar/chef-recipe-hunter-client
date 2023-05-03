@@ -29,7 +29,7 @@
 
 7. On the Registration page, display errors when:
 update: If a user's email address or password doesn't match, display error. This error will be displayed on the Login page.
-The password is less than 6 characters
+// The password is less than 6 characters
 // A user cannot submit empty email and password fields
 
 // 8. On the Homepage: There will be a banner section. You can make it a reasonable banner. That be text on one side, and picture in another side. Or it could be text with background pictures. It could be a slider or a carousel. You can make it the way you want. ----> ok
@@ -76,7 +76,7 @@ Each recipe info should contain the recipe name, ingredients (at least 5), cooki
 // Tell us the difference between nodejs and express js.
 // What is a custom hook, and why will you create a custom hook?
 
-5. The Chef Recipe page will be a private/protected page. If you reload the protected/private route (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route.
+// 5. The Chef Recipe page will be a private/protected page. If you reload the protected/private route (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route.
 
 6. Apply lazy load to the chef picture either on the banner of Chef Recipes or on the chef pictures of the six cards on the Homepage.
 Hint: Google React Awesome components, go to the GitHub repo, find react-lazy-load, and try it. Alternatively, you can try any other package as well.
