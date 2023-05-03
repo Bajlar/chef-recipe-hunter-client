@@ -30,7 +30,7 @@
 7. On the Registration page, display errors when:
 update: If a user's email address or password doesn't match, display error. This error will be displayed on the Login page.
 The password is less than 6 characters
-A user cannot submit empty email and password fields
+// A user cannot submit empty email and password fields
 
 // 8. On the Homepage: There will be a banner section. You can make it a reasonable banner. That be text on one side, and picture in another side. Or it could be text with background pictures. It could be a slider or a carousel. You can make it the way you want. ----> ok
 
@@ -46,6 +46,7 @@ A user cannot submit empty email and password fields
 
 11. When a user clicks on a chef's View Recipes button, he/she will be redirected to the Chef Recipes page. The Chef Recipes page will have the following :
 Banner - chef picture, chef name, a short bio/description, likes, number of recipes, and years of experience.
+
 Think about a section displaying the information of the selected chef's recipes in a tabular form or in a card group.
 Each recipe info should contain the recipe name, ingredients (at least 5), cooking method, rating, and a Favorite button. Show at least 3 recipes. for each chef. If needed, you can have duplicate recipes for each chef
 

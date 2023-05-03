@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -6,8 +6,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import { FaUser } from 'react-icons/fa';
+import { AuthContext } from '../../../providers/AuthProvider';
 
 const Header = () => {
+  const {user} = useContext(AuthContext);
+  // console.log(user);
+
   return (
     <div>
       <Navbar bg="light" expand="lg">
@@ -28,8 +32,13 @@ const Header = () => {
               </div>
             </Nav>
             <Form className="d-flex align-items-center">
-              <Nav.Link href="#action2"><FaUser style={{fontSize: '2rem'}}></FaUser></Nav.Link>
-              <Button variant="btn btn-dark" className='ms-4'>Login</Button>
+              {user && 
+                <Nav.Link href="#action2"><FaUser style={{fontSize: '2rem'}}></FaUser></Nav.Link>
+              }
+              {user ? 
+                <Button variant="btn btn-dark" className='ms-4'>Logout</Button> :
+                <Link to='/login'><Button variant="btn btn-dark" className='ms-4'>Login</Button></Link>
+              }
             </Form>
           </Navbar.Collapse>
         </Container>

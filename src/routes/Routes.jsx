@@ -5,6 +5,7 @@ import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import Error from "../components/Error/Error";
 import Blog from "../components/Blog/Blog";
+import ChefInfo from "../components/pages/home/ChefInfo/ChefInfo";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/chef/:id',
+        element: <ChefInfo></ChefInfo>
       }
     ]
   },

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
-import first from '../../../../assets/images/chef-pic-1.png.jpg';
-import second from '../../../../assets/images/chef-pic-2.png.png';
-import third from '../../../../assets/images/chef-pic-3.png.jpg';
-import four from '../../../../assets/images/chef-pic-4.png.jpg';
-import five from '../../../../assets/images/chef-pic-5.png.jpg';
-import six from '../../../../assets/images/chef-pic-6.png.jpg';
+import first from '../../../../assets/images/banner-img/banner-pic1.png.webp';
+import second from '../../../../assets/images/banner-img/banner-pic2.png.jpg';
+import third from '../../../../assets/images/banner-img/banner-pic3.png.jpg';
+import four from '../../../../assets/images/banner-img/banner-pic4.png.jpg';
+import five from '../../../../assets/images/banner-img/banner-pic5.png.jpg';
+import six from '../../../../assets/images/banner-img/banner-pic6.png.jpg';
 
 const Banner = () => {
   return (
@@ -19,7 +19,7 @@ const Banner = () => {
           />
           <Carousel.Caption>
             <h3>Chef Ahmed Hossain</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>A chef is a professional cook and tradesman who is proficient in all aspects of food preparation, often focusing on a particular cuisine.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -31,7 +31,7 @@ const Banner = () => {
           />
           <Carousel.Caption>
             <h3>Chef Fakruddin</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>A chef is a professional cook and tradesman who is proficient in all aspects of food preparation, often focusing on a particular cuisine.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -43,9 +43,7 @@ const Banner = () => {
           />
           <Carousel.Caption>
             <h3>Chef Asad Latif</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <p>A chef is a professional cook and tradesman who is proficient in all aspects of food preparation, often focusing on a particular cuisine.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -57,9 +55,7 @@ const Banner = () => {
           />
           <Carousel.Caption>
             <h3>Chef Tony</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <p>A chef is a professional cook and tradesman who is proficient in all aspects of food preparation, often focusing on a particular cuisine.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -71,9 +67,7 @@ const Banner = () => {
           />
           <Carousel.Caption>
             <h3>Manik Miah</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <p>A chef is a professional cook and tradesman who is proficient in all aspects of food preparation, often focusing on a particular cuisine.</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -85,9 +79,7 @@ const Banner = () => {
           />
           <Carousel.Caption>
             <h3>Shelly Nuruzzaman</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <p>A chef is a professional cook and tradesman who is proficient in all aspects of food preparation, often focusing on a particular cuisine.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
