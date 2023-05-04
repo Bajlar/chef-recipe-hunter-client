@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       {
         path: '/singleCard',
         element: <SingleCard></SingleCard>,
-        loader: () => fetch('http://localhost:5000/chefs')
+        loader: () => fetch('https://chef-recipe-hunter-server-bajlar.vercel.app/chefs')
       }
     ]
   },
