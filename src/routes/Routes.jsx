@@ -5,7 +5,8 @@ import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import Error from "../components/Error/Error";
 import Blog from "../components/Blog/Blog";
-// import PrivetRoute from "./PrivetRoute";
+import SingleCard from "../components/pages/home/SingleCard/SingleCard";
+import PrivetRoute from "./PrivetRoute";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <PrivetRoute><Home></Home></PrivetRoute>
       },
       {
         path: '/login',
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: '/blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/singleCard',
+        element: <SingleCard></SingleCard>,
+        loader: () => fetch('http://localhost:5000/chefs')
       }
     ]
   },

@@ -17,7 +17,7 @@ const Register = () => {
     const email = form.email.value;
     const password = form.password.value;
     const photo = form.photo.value;
-    console.log(name, email, password, photo);
+    // console.log(name, email, password, photo);
 
     setError('');
     setSuccess('');

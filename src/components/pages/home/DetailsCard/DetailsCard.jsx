@@ -19,7 +19,7 @@ const DetailsCard = ({chef}) => {
               </p>
               <p>Total Likes: <span className='text-primary'>{likes}</span></p>
             </Card.Text>
-            <Link to={`/chefs/${chef?.id}`}>
+            <Link to='/singleCard'>
               <Button variant="dark">View Recipes Button</Button>
             </Link>
           </Card.Body>

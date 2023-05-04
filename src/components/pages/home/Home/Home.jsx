@@ -3,10 +3,11 @@ import Banner from '../Banner/Banner';
 import Favorite from '../Favorite/Favorite';
 import HealthyFood from '../HealthyFood/HealthyFood';
 import BannerCard from '../BannerCard/BannerCard';
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <div className='my-4'>
+    <Container className='my-4'>
       <div>
         <Banner></Banner>
       </div>
@@ -19,7 +20,7 @@ const Home = () => {
       <div className="my-5">
         <HealthyFood></HealthyFood>
       </div>
-    </div>
+    </Container>
   );
 };
 
