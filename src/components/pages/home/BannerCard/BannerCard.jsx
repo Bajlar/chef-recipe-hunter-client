@@ -14,13 +14,15 @@ const BannerCard = () => {
 
   return (
     <Container>
-      <h2 className='text-center'>All Chefs Details</h2>
-      {
-        chefs.map(chef => <DetailsCard
-          key={chef.id}
-          chef={chef}
-        ></DetailsCard>)
-      }
+      <h2 className='text-center'>All Chefs Here</h2>
+      <div className='row-cols-1 row-cols-md-2 row-cols-lg-3 d-flex flex-wrap'>
+        {
+          chefs.map(chef => <DetailsCard
+            key={chef.id}
+            chef={chef}
+          ></DetailsCard>)
+        }
+      </div>
     </Container>
   );
 };

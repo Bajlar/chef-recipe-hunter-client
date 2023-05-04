@@ -18,12 +18,12 @@ const Login = () => {
     const form = event.target;
     const email = form.email.value;
     const password = form.password.value; 
-    console.log(email, password);
+    // console.log(email, password);
 
     login(email, password)
     .then((result) => {
       const loggedUser = result.user;
-      console.log(loggedUser);
+      // console.log(loggedUser);
       form.reset();
       navigate('/');
     })
@@ -91,6 +91,7 @@ const Login = () => {
             {user && 
               <div>
                 <h3>Google User: {user.displayName}</h3>
+                <p>Email: {user.email}</p>
                 <img src={user.photoURL} alt="" />
               </div>
             }
@@ -104,8 +105,7 @@ const Login = () => {
                 <img src={userGithub.photoURL} alt="" />
               </div>
             }
-          </div>
-          
+          </div>  
         </div>
       </Form>
     </Container>

@@ -3,6 +3,10 @@ import { Button, Card, Container } from 'react-bootstrap';
 import { FaDownload } from 'react-icons/fa';
 
 const Blog = () => {
+  const handlePdfDownload = () => {
+    console.log('btn click');
+  }
+
   return (
     <Container className='my-4'>
       <Card>
@@ -94,7 +98,7 @@ const Blog = () => {
               </p>
             </div>
             <div className="mt-3">
-              <Button variant="dark"><FaDownload></FaDownload> Pdf Download</Button>
+              <Button onClick={handlePdfDownload} variant="dark"><FaDownload></FaDownload> Pdf Download</Button>
             </div>
           </Card.Text>
         </Card.Body>

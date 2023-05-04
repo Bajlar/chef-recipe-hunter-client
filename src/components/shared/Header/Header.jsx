@@ -1,4 +1,5 @@
 import React, { useContext} from 'react';
+import './Header.css';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -34,10 +35,10 @@ const Header = () => {
               navbarScroll
             >
               <div className="d-flex gap-4">
-                <Link to='/' className='text-decoration-none fw-medium'>Home</Link>
-                <Link to='/blog' className='text-decoration-none fw-medium'>Blog</Link>
-                <Link to='/login' className='text-decoration-none fw-medium'>Login</Link>
-                <Link to='/register' className='text-decoration-none fw-medium'>SignUp</Link>
+                <Link to='/' className='text-decoration-none fw-medium active'>Home</Link>
+                <Link to='/blog' className='text-decoration-none fw-medium active'>Blog</Link>
+                <Link to='/login' className='text-decoration-none fw-medium active'>Login</Link>
+                <Link to='/register' className='text-decoration-none fw-medium active'>SignUp</Link>
               </div>
             </Nav>
             <Form className="d-flex align-items-center">

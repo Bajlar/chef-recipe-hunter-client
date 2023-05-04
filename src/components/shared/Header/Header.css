@@ -1,0 +1,10 @@
+.active {
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
+.active:hover {
+  background-color: orangered;
+  color: #fff;
+  font-weight: 600;
+}
